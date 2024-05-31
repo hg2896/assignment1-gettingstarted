@@ -18,7 +18,7 @@ def welcome_assignment_answers(question):
     elif question == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
         answer = "4deefd4471b0cf01afeea837fd61f9edc4a36f8c73959bd030517586151c6a98"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
-        answer = "Yes"
+        answer = "No"
     elif question == "What layer of the TCP/IP model does the protocol DNS belong to? - The answer should be an integer number":
         answer = 5
     elif question == "What layer of the TCP/IP model does the protocol ICMP belong to? - The answer should be an integer number":
@@ -38,8 +38,8 @@ if __name__ == "__main__":
     #print(welcome_assignment_answers(debug_question))
     question = input("Please enter your question:  ")
     answer_is = (welcome_assignment_answers(question))
-    print("The answer is: " + str(answer_is))
-    exit(0)
+    #print("The answer is: " + str(answer_is))
+    #exit(0)
 
 #Questions:
 #"In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
